@@ -1,0 +1,56 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    background-color: orange;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    background-color: black;
+    color: orange;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.cards {
+    border: solid;
+    margin: 20px;
+    background-color: orange;
+}
+
+h2 {
+    padding:5px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+section {
+    border: solid;
+    margin: 30px;
+}
+
+.employee-info {
+    border:solid;
+    padding: 10px;
+    padding-right: 200px;
+    background-color: black;
+    color: orange;
+    width: 150px;
+}
+
+
+
