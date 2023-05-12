@@ -2,7 +2,9 @@ const Engineer = require('../lib/Engineer');
 
 describe('New engineer', () => {
     test('Should creates a new engineer', () => {
+        // Creates a new engineer with the following inputs
         const newEngineer = new Engineer('John', 1, '123@123.com', 'j0hn');
+        // This is what should be rendered based off of user inputs
         const expectedHTML = [
             `<div class="cards">
         <h2 id="manager-name">John</h2>
